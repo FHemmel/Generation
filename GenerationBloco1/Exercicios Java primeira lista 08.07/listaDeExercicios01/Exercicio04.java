@@ -25,6 +25,7 @@ public class Exercicio04 {
 			System.out.println(num + " ao quadrado é: " + num + " é: " + Math.pow(num,2));
 		}
 		
+		leia.close();
 	}
 
 }

@@ -14,7 +14,7 @@ public class Exercicio03 {
 		int [][] n2 = new int [4][6];
 		int [][] m1 = new int [4][6];
 		int [][] m2 = new int [4][6];
-		int soma = 0;
+		
 		Random gerador = new Random();
 		
 		for(int l = 0; l <= 3; l++){

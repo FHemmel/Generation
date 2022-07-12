@@ -23,6 +23,6 @@ public class Exercicio03 {
 		}else if(idade <= 25){
 			System.out.println("Sua idade é da categoria adulto.");
 		}
-			
+		leia.close();
 	}
 }

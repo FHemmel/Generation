@@ -37,6 +37,7 @@ public class Exercicio02 {
 		}else{
 			System.out.println(num3+"-"+num2+"-"+num1);			
 		}
+		leia.close();
 	}
 
 }

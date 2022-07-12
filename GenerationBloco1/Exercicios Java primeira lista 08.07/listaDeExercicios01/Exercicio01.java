@@ -27,7 +27,8 @@ public class Exercicio01 {
 		}else {
 			System.out.println("\nO terceiro número é o maior.");
 		}
-
+		
+		leia.close();
 	}
 
 }

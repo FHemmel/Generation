@@ -26,6 +26,8 @@ public class Exercicio04 {
 		somaDiagonal = matriz [0][0] + matriz [1][1] + matriz [2][2];
 		System.out.println("\nA soma total é: " + soma);
 		System.out.println("\nA soma da diagonal da matriz é: " + somaDiagonal);
+		
+		leia.close();
 	}
 
 }
