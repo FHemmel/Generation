@@ -4,3 +4,5 @@ informações dos colaboradores desta empresa */
 CREATE DATABASE BD_RH;
 
 USE BD_RH;
+
+/* Criando banco de dados. */

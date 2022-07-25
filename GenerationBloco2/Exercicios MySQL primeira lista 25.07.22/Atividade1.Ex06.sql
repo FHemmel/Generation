@@ -1,4 +1,4 @@
-/* Exercicio 05 - Faça um SELECT que retorne todes os colaboradores com o salário menor do que 2000. */
+/* Exercicio 06 - Ao término atualize um registro desta tabela através de uma query de atualização. */
 
 CREATE DATABASE BD_RH;
 
@@ -26,3 +26,5 @@ INSERT INTO TB_COLABORADORES(NOME, CPF, IDADE, SALARIO, CARGO) VALUES ('Alex', '
 SELECT * FROM TB_COLABORADORES WHERE SALARIO > 2000;
 
 SELECT * FROM TB_COLABORADORES WHERE SALARIO < 2000;
+
+UPDATE TB_COLABORADORES SET IDADE = 17 WHERE ID = 7; /* Atualizando a idade do Alex de 16 para 17.*/

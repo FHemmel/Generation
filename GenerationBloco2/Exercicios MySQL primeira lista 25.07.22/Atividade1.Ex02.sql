@@ -14,4 +14,4 @@ SALARIO DOUBLE,
 CARGO CHAR(255),
 primary key(ID)
 );
-
+/* Criando tabela colaboradores e colocando atributos. */
