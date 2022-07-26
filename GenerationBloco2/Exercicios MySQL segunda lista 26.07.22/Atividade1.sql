@@ -15,3 +15,19 @@ arma varchar(255),
 primary key(id)
 );
 
+/*Atividade01 Ex02- Crie a tabela tb_personagens e determine 4 atributos, além da Chave Primária, 
+relevantes aos personagens do Game Online.
+
+Ex03 - Não esqueça de criar a Foreign Key da tabela tb_classes na tabela tb_personagens*/
+
+create table tb_personagens(
+id bigint auto_increment,
+nome varchar(255),
+raca varchar(255),
+valorAtaque double,
+valorDefesa double,
+vida int,
+primary key(id),
+classe_id bigint,
+foreign key (classe_id) references tb_classes(id)
+);
