@@ -52,3 +52,7 @@ insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_i
 insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Ganondorf","Robo", 1000, 3400, 1000, 4);
 insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Alatar","Humano", 2250, 1800, 1000, 5);
 insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Wand","Dragão", 1900, 1300, 1000, 2);
+
+/*Atividade01 Ex06- Faça um SELECT que retorne todes os personagens cujo poder de ataque seja maior do que 2000. */
+
+select * from tb_personagens where valorAtaque > 2000;
