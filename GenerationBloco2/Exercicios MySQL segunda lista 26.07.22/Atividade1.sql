@@ -60,3 +60,8 @@ select * from tb_personagens where valorAtaque > 2000;
 /*Atividade01 Ex07- Faça um SELECT que retorne todes os personagens cujo poder de defesa esteja no intervalo 1000 e 2000. */
 
 select * from tb_personagens where valorDefesa between 1000 and 2000;
+
+/*Atividade01 Ex08- Faça um SELECT utilizando o operador LIKE, buscando todes os personagens que possuam a letra R no 
+atributo nome. */
+
+select * from tb_personagens where nome like "%r%";
