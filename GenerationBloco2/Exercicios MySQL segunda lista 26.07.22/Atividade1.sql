@@ -55,13 +55,18 @@ insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_i
 
 /*Atividade01 Ex06- Faça um SELECT que retorne todes os personagens cujo poder de ataque seja maior do que 2000. */
 
-select * from tb_personagens where valorAtaque > 2000;
+SELECT * FROM tb_personagens where valorAtaque > 2000;
 
 /*Atividade01 Ex07- Faça um SELECT que retorne todes os personagens cujo poder de defesa esteja no intervalo 1000 e 2000. */
 
-select * from tb_personagens where valorDefesa between 1000 and 2000;
+SELECT * FROM tb_personagens where valorDefesa between 1000 and 2000;
 
 /*Atividade01 Ex08- Faça um SELECT utilizando o operador LIKE, buscando todes os personagens que possuam a letra R no 
 atributo nome. */
 
-select * from tb_personagens where nome like "%r%";
+SELECT * FROM tb_personagens where nome like "%r%";
+
+/*Atividade01 Ex08- Faça um SELECT utilizando a cláusula INNER JOIN, unindo os dados da tabela tb_personagens 
+com os dados da tabela tb_classes. */
+
+SELECT * FROM tb_personagens INNER JOIN tb_classes on tb_classes.id = tb_personagens.classe_id;
