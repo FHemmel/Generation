@@ -39,3 +39,16 @@ insert into tb_classes (tipo, arma) values ("Guerreiro", "Espada");
 insert into tb_classes (tipo, arma) values ("Bruxo", "Varinha");
 
 select * from tb_classes;
+select * from tb_personagens;
+
+/*Atividade01 Ex05- Insira 8 registros na tabela tb_personagens, preenchendo a Chave Estrangeira para criar a relação com a 
+tabela tb_classes.*/
+
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Pipi","urso negro", 1800, 1000, 1000, 2);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Ambrose","Humano", 2300, 1400, 1000, 3);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Robaldo","Robo", 1500, 2700, 1000, 4);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Atlantes","Humano", 2700, 2100, 1000, 5);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Harry","Humano", 3300, 2100, 1000, 6);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Ganondorf","Robo", 1000, 3400, 1000, 4);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Alatar","Humano", 2250, 1800, 1000, 5);
+insert into tb_personagens (nome, raca, valorAtaque, valorDefesa, vida, classe_id) values ("Wand","Dragão", 1900, 1300, 1000, 2);
